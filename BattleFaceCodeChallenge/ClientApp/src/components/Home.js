@@ -16,7 +16,7 @@ export class Home extends Component {
                     <li>The format of the deliverable can either be in the form of a compressed file such as a zip file or as a GitHub link.</li>
                     <li>Expected duration of task: 1 to 2 hours.</li>
                 </ul>
-                <p>The <code>Swagger UI</code> can be found <a href="https://localhost:44361/swagger">here</a> which is used to visualize and interact with the API's resources without having any of the implementation logic in place.</p>
+                <p>The <code>Swagger UI</code> can be found <a href="/swagger">here</a> which is used to visualize and interact with the API's resources without having any of the implementation logic in place.</p>
                 <p>The <code>ClientApp</code> subdirectory is a standard React application based on the <code>create-react-app</code> template. If you open a command prompt in that directory, you can run <code>npm</code> commands such as <code>npm test</code> or <code>npm install</code>.</p>
             </div>
         );
