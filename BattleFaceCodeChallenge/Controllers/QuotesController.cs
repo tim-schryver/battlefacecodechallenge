@@ -18,11 +18,6 @@ namespace BattleFaceCodeChallenge.Controllers
             _quotesService = QuoteService;
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// <param name="quote"></param>
-        /// <returns></returns>
         [HttpPost]
         [Route("quotation")]
         public async Task<IActionResult> CalculateQuote([FromBody] QuoteRequest quote)
